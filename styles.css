@@ -1,0 +1,190 @@
+body {
+    background-image: linear-gradient(to right, #ffffdd, #d4af37);
+    margin: 0;
+    color: #252422;
+    font-family: arial;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right, #d4af37, #ffffdd);
+    position: fixed;  
+    top: 0; 
+    height: 50px;
+    margin: 0;
+    left: 0;
+}
+
+.first{
+    width:90%;
+    max-width:700px;
+    margin: 0 auto 10px;
+}
+
+fieldset{
+    border: none;
+}
+
+.second {
+    background-color: #252422;
+    color: #ffffff;
+}
+
+.secsection {
+    width: 95%;
+    max-width:650px;
+    margin: 10px auto;
+    padding-top: 30px;
+}
+
+#wd {
+    margin: 30px 10px 20px;
+    border-bottom: 2px solid #d4af37;
+    width: 150px;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #d4af40;
+    font-weight:bold;
+    margin-left:5px;
+}
+
+.name{
+    margin: 120px 0 20px;
+    text-align: center;
+    
+}
+
+h4 {
+    margin: 15px 8px;
+}
+
+nav > ul > li {
+    display: block;
+    align-items: space-between;
+    margin-left: 10px;
+}
+nav > ul {
+    display:flex;
+    flex-wrap:wrap;
+    height:100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-block:0;
+    padding-inline-start:0;
+}
+
+nav > ul > li:hover {
+    background-color: #252422;
+    color: #5d3608;
+    padding: 2px;
+}
+
+#logo{
+    width: max(100px, 18vw);
+    aspect-ratio:16/4;
+    padding:0.4rem;
+    object-fit: cover;
+    mix-blend-mode: multiply; 
+}
+
+.brand-image{
+    width:250px;
+    height: 250px;    
+    object-fit: cover;
+    mix-blend-mode: multiply;    
+}
+
+#table-container{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.list{
+    font-weight: bold;
+    font-size:1.1rem;
+}
+
+address {
+    margin: 30px auto 30px;
+    padding-inline-start: 20px;
+    text-align: center;
+    inline-padding: 10px;
+}
+
+.container{
+    border:2px solid black;
+    padding:7px;
+    margin-left: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+#head{
+    font-weight: bold;    
+}
+
+span{
+    font-weight: bold; 
+}
+
+.third {
+    width: 85%;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.highlight{
+    background-color: #FDEC3D;
+    color: #252422;
+    padding: 12px;
+    margin: 10px auto;
+    width: 90%;
+}
+#sce {
+    margin-bottom: 20px;
+}
+
+.pride {
+    border: 2px solid #5d3608;
+    width: 200px;
+    padding: 5px;    
+    text-align: center;
+    margin: 20px auto 100px;
+    border-radius: 5px;
+}
+
+#we-do{
+    width: 95%;
+    margin: auto;
+    font-family: tahoma;
+}
+
+.cost {
+    font-size:1.2rem;   
+    border-bottom: 2px solid #5d3608;
+    width:130px;
+}
+
+hr {
+    height: 1px;
+}
+
+#reach {
+    text-align: center;
+    background-color: #FDEC3D;
+    padding: 12px;
+    width: 150px;
+    margin: auto;
